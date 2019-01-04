@@ -1,0 +1,21 @@
+text {
+    alignment-baseline: middle;
+    cursor: pointer;
+    fill: white;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    stroke: white;
+    text-anchor: middle;
+    width: 50px;
+}
+
+.small text {
+    font-size: 14px;
+}
+
+line {
+    cursor: pointer;
+    stroke: red;
+    stroke-linecap: round;
+    stroke-width: 5px;
+}

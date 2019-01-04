@@ -1,0 +1,35 @@
+{
+  "name": "@plnkr/starter-react",
+  "version": "1.0.2",
+  "description": "React starter template",
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "moment": "^2.23.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "plnkr": {
+    "runtime": "system",
+    "useHotReload": true
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
